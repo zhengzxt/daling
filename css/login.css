@@ -1,0 +1,254 @@
+html,body,div,ul,ol,li,dl,dt,dd,img,form,p,h1,h2,h3,h4,h5,h6,input{
+			margin:0;
+			padding:0;	
+		}
+		body
+		{
+			font-family:"微软雅黑",Arial;
+		}
+		.header{
+			height: 80px;
+			border-bottom: 1px solid #d8d8d8;
+			padding-top:20px;
+			padding-left: 10px;
+		}
+		.banner{
+			height:660px;
+			border-bottom: 1px solid #d8d8d8;
+			background: #f9fbfd url(../image/login_bg.png) no-repeat 90px 40px; 
+			position: relative;
+		}
+		.login{
+			width: 450px;
+			height: 486px;
+			border:1px solid #e5e5e5;
+			position: absolute;
+			top:46px;
+			right: 90px;
+			background: white;
+		}
+
+		.login #judgePho{
+			position: absolute;
+			top: 170px;
+			left:60px;
+			background: #404040;
+			height:30px;
+			width: 140px;
+			font-size: 12px;
+			color: white;
+			line-height: 30px;
+			border-radius: 5px;
+			text-align: center;
+			opacity: .8;
+		}
+		.login #triangle{
+			position: absolute;
+			top: 165px;
+			left:95px;
+			border:5px solid white;
+			border-top:none;
+			border-bottom: 5px solid #404040;
+		}
+		.login p{
+			margin-top: 20px;
+		}
+		.login .p1{
+			margin-left: 30px;
+			padding-left: 10px;
+			height: 30px;
+			line-height: 30px;
+			border-left: 3px solid #7d589d;
+		}
+		.login .p2{
+			width: 355px;
+			height:34px;
+			margin-left: 50px;
+			border-bottom: 1px solid #7d589d;
+		}
+		.login .p2 a{
+			text-align: center;
+			display: inline-block;
+			width: 70px;
+			height: 34px;
+			line-height: 34px;
+			margin-left: 40px;
+			text-decoration: none;
+			background: url() bottom center no-repeat;
+		}
+		.login .p2 a:first-child{background: url(../image/login_arr.png) bottom center no-repeat;}
+		.login a:hover{text-decoration: underline;}
+		.login a{color: #666;}
+		#register{
+			margin-top: 40px;
+			margin-left: 60px;
+		}
+		#enter{
+			margin-top: 40px;
+			margin-left: 60px;
+		}
+		.login p{
+			margin-top: 20px;
+			width: 324px;
+			height:40px;
+		}
+		.login span{
+			display: inline-block;
+			width: 38px;
+			height: 37px;
+			border:1px solid #ccc;
+			border-right: none;
+			float: left;
+		}
+		.login .phone{
+			background: url(../image/ico-login.png) no-repeat -20px 10px;
+		}
+		.login .verify, .password{
+			background: url(../image/ico-login.png) no-repeat -20px -19px;
+		}
+		#register .verify1{
+			background: url(../image/ico-login.png) no-repeat -20px -47px;
+		}
+		.login #verify1, #verify{height: 37px;width: 160px;}
+		.login #code1, #code{height: 28px;width: 100px;border:none;margin-top: 5px;margin-left: 20px;background: url(../image/login.jpg) no-repeat center center;background-size:cover;;}
+		#register #getcode{height: 28px;width: 100px;border:none;margin-top: 5px;margin-left: 20px;background: #94d469;color:white;font-size: 12px;line-height: 28px;text-align: center;}
+		.login input{
+			height:37px;
+			width: 280px;
+			float: left;
+			border:1px solid #ccc;
+		}
+		
+		#enter p:nth-child(4){
+			height: auto;
+		}
+		#register p:nth-child(5){
+			margin-top: 0px;
+			line-height: 36px;
+			
+		}
+		#enter p a{text-decoration: none;float:right;font-size: 12px;}
+		.login button{			
+			width: 324px;
+			height:40px;
+			background: #e14958;
+			color:white;
+			border:none;
+		}
+		
+		#register button{background: #ccc;}
+		#register #agree{width: 20px;}
+		#register .agree{
+			font-size: 12px;color:#666;}
+		.agree a{color:#0000ff;text-decoration: none}
+.footer1{
+	height:80px;
+	border-top: 1px solid #e0e0e0;
+	border-bottom: 1px solid #e0e0e0;
+	box-shadow: 0px 3px 3px #e0e0e0;
+	font-size: 12px;
+	color:#666;
+}
+.footer1 ul{
+	list-style: none;
+}
+.footer1 ul li{
+	margin-left: 140px;
+	height: 80px;
+	line-height: 80px;
+	float:left;
+	text-align: center;
+}
+.footer1 p{float: left;}
+.footer1 span{float: left;}
+.footer1 ul li:nth-child(1) p{
+	display:inline-block;
+	margin-left: 50px;
+	margin-top: 20px;
+	width: 22px;
+	height:41px;
+	background: url(../image/ico_arrow.png) -2px -135px no-repeat;
+}
+.footer1 ul li:nth-child(2) p{
+	display:inline-block;
+	margin-top: 25px;
+	width: 35px;
+	height:30px;
+	background: url(../image/ico-assure.png) left top no-repeat;
+
+}
+.footer1 ul li:nth-child(3) p{
+	display:inline-block;
+	margin-top: 25px;
+	width: 35px;
+	height:30px;
+	background: url(../image/ico-assure.png) -36px 0px no-repeat;
+	
+}
+.footer1 ul li:nth-child(4) p{
+	display:inline-block;
+	margin-top: 25px;
+	width: 35px;
+	height:30px;
+	background: url(../image/ico-assure.png) -73px top no-repeat;
+	
+}
+
+.footer2{
+	width: 1263px;
+	height: 110px;
+	padding-top: 30px;
+	display:flex;
+	justify-content: space-between;
+}
+.footer2 ul{
+	width: 430px;
+	list-style: none;
+	margin-left: 75px;
+	float: left;
+	font-size: 12px;
+	color:#666;
+}
+.footer2 .li{
+	font-size: 18px;
+	color:#666;
+	margin-bottom: 10px;
+}
+
+.footer3{
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	height:180px;
+	margin:0px 30px;
+	border-top: 1px solid #d8d8d8;
+	font-size: 12px;
+	color:#666; 
+}
+.footer3 p{
+	margin-top: 20px;
+	display: flex;
+	align-items: center;
+}
+.footer3 img{
+	width: 120px;
+	height:40px;
+	margin:0px 5px;
+}
+.footer3 a{
+	color:#666;
+	text-decoration: none;
+}
+.footer3 a:hover{
+	text-decoration:underline;
+}
+
+.footer{
+	width: 1260px;
+	margin:0 auto;
+}
+.kfooter{
+	width: 100%;
+	background-color: white;
+}
+		

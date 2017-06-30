@@ -1,0 +1,405 @@
+
+.side_l{
+	display: none;
+}
+.kdetail{
+	width: 100%;
+}
+.detail{
+	width: 1200px;
+	margin:0 auto;
+	font-size: 12px;
+	color: #666;
+	overflow: hidden;
+	margin-bottom: 50px;
+	font-weight: normal;
+}
+ul{
+	list-style: none;
+}
+.det1{
+	border-bottom: 1px solid #e5e5e5;
+	border-top: 1px solid #e5e5e5;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	height: 30px;
+	padding-top: 10px;
+}
+.det1 li{
+	float: left;
+	margin-right: 14px;
+	display: flex;
+	align-items: center;
+}
+.det1 .index{
+	cursor: pointer;
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: url(../image/ico.png) no-repeat left -40px;
+}
+.det1 .arrow{
+	display: inline-block;
+	width: 10px;
+	height: 20px;
+	margin-left: 14px;
+	background: url(../image/ico_arrow.png) no-repeat -15px -143px;
+}
+
+.det2-1{
+	width: 1015px;
+	/* overflow: hidden; */
+	float: left;
+	position: relative;
+}
+.det2 .detA{
+	display: inline-block;
+	border:1px solid #e5e5e5;
+	width: 378px;
+	height:378px;
+	background: url(../image/service2_4.jpg) no-repeat center center;
+	background-size: cover;
+	margin-right: 35px;
+	float: left;
+	position: relative;
+}
+.mark{
+	width: 130px;
+	height:130px;
+	 background-color:rgba(255,255,255,.4); 
+	/* background-color: red; */
+	position: absolute;
+	display: none;
+}
+.b-box{
+	display: none;
+	position: absolute;
+	overflow: hidden;
+	left: 500px;
+	width: 380px;
+	height:380px;
+	background-color:rgba(255,255,255,.4);
+	z-index: 3; 
+}
+.rel-box{
+	position: absolute;
+	width:1140px;
+	height: 1140px;
+	top: -380px;
+	left: -380px;
+	background: url(../image/service2_4.jpg) no-repeat center center;
+	background-size: cover;
+}
+.det1-r{
+	width: 600px;
+	height: 380px;
+	float: left;
+}
+.det1-r li{
+	margin-bottom: 27px;
+}
+.l1{
+	font-size: 20px;
+	color:#7d6666;
+}
+
+.l2-1{
+	 font-weight: bold; 
+	font-size: 28px;
+	margin-left: 40px;
+}
+.l2-2{
+	background-color:#e14958;
+	color: white;
+}
+.l2-3{
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	text-align: center;
+	line-height: 16px;
+	border-radius: 8px;
+	border:1px solid #e5e5e5;
+}
+.l3{
+	height: 40px;
+	border-bottom: 1px dashed #e5e5e5;
+	border-top: 1px dashed #e5e5e5;
+	padding-left: 80px;
+	line-height: 40px;
+}
+
+.l4-0{
+	display: flex;
+	align-items: center;
+}
+
+.l4-1{
+	margin-left: 35px;
+	line-height: 30px;
+	width: 40px;
+	height: 30px;
+	border: 1px solid #e5e5e5;
+	text-align: center;
+}
+.l4{
+	width: 20px;
+	display: flex;
+	flex-flow:column;
+
+}
+.l4-2,.l4-3{
+	width: 12px;
+	height: 12px;
+	border: 1px solid #e5e5e5;
+	margin:2px;
+	cursor: pointer;
+}
+
+.l4-2 span{
+	margin-bottom: 2px;
+	display: inline-block;
+	width: 0px;
+	height: 0px;
+	border:5px solid transparent;
+	border-bottom: 8px solid #666;
+	border-top: 1px;
+}
+.l4-3 span{
+	margin-top: 2px;
+	display: inline-block;
+	width: 0px;
+	height: 0px;
+	border:5px solid transparent;
+	border-top: 8px solid #666;
+}
+
+.l5-1{
+	display: inline-block;
+	width: 136px;
+	height:34px;
+	color:#e14958;
+	border:2px solid #e14958;
+	margin-left: 80px;
+	line-height: 34px;
+	text-align: center;
+	font-size: 16px;
+	cursor: pointer;
+}
+.l5-2{
+	display: inline-block;
+	width: 136px;
+	height:34px;
+	cursor: pointer;
+	margin-left: 20px;
+	border:2px solid #e14958;
+	color:white;
+	background-color: #e14958;
+	line-height: 34px;
+	text-align: center;
+	font-size: 16px;
+	position: relative;
+}
+
+.l6{
+	display: flex;
+	align-items: center;
+	padding-left: 65px;
+}
+.l6 span{
+	margin-left: 15px;
+	margin-right: 10px;
+	width: 20px;
+	height: 20px;
+	background: url(../image/ico_mark.png) no-repeat 0px -8px;
+}
+
+.det2-2{
+	margin-top: 10px;
+	padding-top: 30px;
+	width: 600px;
+	height:60px;
+}
+.det2-2 li{
+	float:left;
+	width: 80px;
+}
+.det2-2 .flex{
+	display: flex;
+	justify-content: flex-start;
+	padding:20px;
+}
+.det2-2 span{
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background:url(../image/ico.png) no-repeat 0px -21px;
+}
+
+.det2-2 .lihover{
+	background-color: white;
+	width: 240px;
+	/* border:1px solid #e5e5e5; */
+	padding:20px;
+	padding-top: 0px;
+	position: relative;
+	z-index: 2;
+	padding-bottom: 0px;
+}
+.det2-2 .phover2{
+	display: none;
+}
+.det2-2 .arrow{
+	width: 0px;
+	height:0px;
+	border:5px solid transparent;
+	border-top: 5px solid #666;
+	background:none;
+	margin-top: 5px;
+}
+
+.det3{
+	height:40px;
+	border-bottom:1px solid #e5e5e5;
+	
+}
+.det3 a{
+	display: inline-block;
+	width: 124px;
+	height: 39px;
+	text-decoration: none;
+	color: #666;
+	font-size: 16px;
+	text-align: center;
+	font-size: bold;
+	line-height: 40px;
+
+}
+.det3 a:first-child{
+	border:1px solid #999;
+	border-bottom: 1px solid white;
+	background: url(../image/det.jpg) no-repeat center top;
+}
+
+.det4{
+	padding-left: 30px;
+}
+.det4 p{
+	margin-top: 30px;
+	padding-bottom: 15px;
+	 font-weight: bold; 
+	border-bottom: 1px dashed #e6e6e6;
+}
+.det4 .det4-1{
+	padding-bottom: 30px;
+}
+.det4 ul{
+	padding-bottom: 15px;
+	border-bottom: 1px dashed #e6e6e6;
+}
+
+
+.det5{
+	width: 160px;
+	float: right;
+}
+.det5-1{
+	 font-weight: bold; 
+	text-align: center;
+}
+.det5A{
+	display: block;
+	width: 140px;
+	height:140px;
+	margin:0 auto;
+}
+.arrow1{
+	width: 20px;
+	height: 16px;
+	display: inline-block;
+	background: url(../image/ico_arrow.png) no-repeat 0px -2px;
+	margin-top: 20px;
+}
+.arrow2{
+	width: 20px;
+	height: 16px;
+	display: inline-block;
+	margin-left: 20px;
+	background: url(../image/ico_arrow.png) no-repeat -28px -2px;
+	margin-top: 20px;
+}
+
+.lastP{
+	width: 160px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.det5-top p{
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+.det5-top a{
+	color: #666;
+	text-decoration: none;
+}
+.det5-top a:hover{
+	text-decoration: underline;
+}
+
+
+/*立即购*/
+.scroll2{
+	display: inline-block;
+	width: 136px;
+	height:34px;
+	color:#e14958;
+	border:2px solid #e14958;
+	margin-left: 10px;
+	line-height: 34px;
+	text-align: center;
+	font-size: 16px;
+	cursor: pointer;
+	border-bottom:2px solid white;
+}
+.scroll3{
+	display: inline-block;
+	width: 136px;
+	height:34px;
+	cursor: pointer;
+	margin-left: 10px;
+	border:2px solid #e14958;
+	color:white;
+	background-color: #e14958;
+	line-height: 34px;
+	text-align: center;
+	font-size: 16px;
+}
+.scroll{
+	display: none;
+	width: 1200px;
+	position: absolute;
+	height:40px;
+	border-bottom:1px solid #999;
+	padding-left: 40px;
+	padding-right: 40px; 
+	background-color: white;
+	z-index: 100;
+}
+.scroll span{
+	display: inline-block;
+	width: 124px;
+	height: 38px;
+	text-decoration: none;
+	text-align: center;
+	line-height: 40px;
+}
+.scroll p{
+	float: left;
+}
+
+.scroll .active{
+	border:1px solid #999;
+	border-bottom: 1px solid white;
+	background: url(../image/det.jpg) no-repeat center top;
+}

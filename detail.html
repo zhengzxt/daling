@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>商品详情页</title>
+	<link rel="stylesheet" type="text/css" href="css/detail.css">
+	<link rel="stylesheet" type="text/css" href="css/commen.css"/>
+	<script type="text/javascript" src="js/jquery-1.10.1.min.js"></script>
+	<script type="text/javascript" src="js/parabola.js"></script>
+	<script type="text/javascript" src="js/jquery.cookie.js"></script>
+	<script type="text/javascript" src="js/commen.js"></script>
+	<script type="text/javascript" src="js/detail.js"></script>
+</head>
+<body>
+
+<div class="scroll"><p><span class="active news">商品信息</span><span class="sale">售后服务</span></p><p style="float: right;"><span class="scroll1">￥<b>59.00<b/></span><span class="scroll2">立即购买</span><span class="scroll3">添加购物车</span></p></div>
+
+
+<div class="header">
+		<a href="#">消费者告知书</a>
+		<p><a href="login.html">登录</a>|<a href="login.html">注册</a>| <span>400-080-1888</span>|<a class="QR" href="#">下载达令app</a></p>
+	</div>
+
+
+	<div class="side">
+		<p class="carp"><span class="bg-car"></span>购物车<span class="count">00</span></p>
+		<span class="bg-1"><span class="bg">我的优惠券</span><span class="bg1"></span></span>
+		<span class="bg-2"><span class="bg">我的收藏</span><span class="bg1"></span></span>
+		<span class="bg-3"><span class="bg2"><img src="image/cod_da.png" style="margin:10px">到手机达令</span><span class="bg3"></span></span>
+		<span class="bg-4"></span>
+		<div class="sidecar">
+			
+		</div>
+		<div class="side-bot">
+			<p>共<span class="count"></span>件商品，共计<span class="sum">元</p>
+			<a href="#">去购物车</a>
+		</div>
+	</div>
+
+
+
+	<!-- banner -->
+	<div class="nav">
+		<div class="p1"><a class="A" href="#">全部分类</a><span></span>
+			<div class="side_l">
+				<div class="mouseover">
+					<p><span class="spImg"><img src="image/nav_icon1.png"></span>极致美护</p>
+					<div class="divA"><a href="#">面膜</a>
+						<a href="#">化妆水</a>
+						<a href="#">洁面</a>
+						<a href="#">防晒</a><br/>
+						<a href="#">面霜/乳液</a>
+						<a href="#">卸妆</a>
+						<a href="#">精华</a>
+					</div>
+					<div class="side_cen">
+						<div>
+							<p>极致美护</p>
+							<div class="titleImg"><a href="#"><img src="image/skin_1.jpg"/></a><a href="#"><img src="image/skin_2.jpg"/></a><a href="#"><img src="image/skin_3.jpg"/></a><a href="#"><img src="image/skin_4.jpg"/></a></div>
+						</div>
+						<ul>
+							<li><div>面部护肤</div><div><a href="#">面膜</a><a href="#">化妆水</a><a href="#">洁面</a><a href="#">防晒</a><a href="#">面霜/乳液</a><a href="#">精华</a><a href="#">腿部护理</a><a href="#">唇部护理</a><a href="#">精油</a><a href="#">美妆工具</a><a href="#">男士专区</a><a href="#">护肤套装</a></div></li>
+							<li><div>彩妆气氛</div><div><a href="#">卸妆</a><a href="#">女士香水</a><a href="#">隔离/底妆</a><a href="#">唇膏口红</a><a href="#">眼妆/腮红</a><a href="#">美甲</a></div></li>
+							<li><div>个护保健</div><div><a href="#">沐浴/体乳</a><a href="#">洗发/护发</a><br/><a href="#">口腔护理</a><a href="#">美体护理</a><br/><a href="#">手足护理</a><a href="#">驱蚊凝露</a><br/><a href="#">女性卫生</a><a href="#">保健品</a></div></li>
+						</ul>
+						<div class="ul_bot"><a href="#"><img src="image/skin_5.jpg"/></a></div>
+					</div>
+				</div>
+				<div class="mouseover">
+					<p><span class="spImg"><img src="image/nav_icon2.png"></span>全球零食</p>
+					<div class="divA">
+						<a href="#">饼干</a>
+						<a href="#">威化</a>
+						<a href="#">蜂蜜</a>
+						<a href="#">麦片</a>
+						<a href="#">糖果</a><br/>
+						<a href="#">巧克力</a>
+						<a href="#">膨化食品</a>
+						<a href="#">咖啡</a>
+					</div>
+
+					<div class="side_cen">
+						<div>
+							<p>全球零食</p>
+							<div class="titleImg"><a href="#"><img src="image/sock_1.jpg"/></a><a href="#"><img src="image/sock_2.jpg"/></a><a href="#"><img src="image/sock_3.jpg"/></a><a href="#"><img src="image/sock_4.jpg"/></a></div>
+						</div>
+						<ul>
+							<li><div>面部护肤</div><div><a href="#">面膜</a><a href="#">化妆水</a><a href="#">洁面</a><a href="#">防晒</a><a href="#">面霜/乳液</a><a href="#">精华</a><a href="#">腿部护理</a><a href="#">唇部护理</a><a href="#">精油</a><a href="#">美妆工具</a><a href="#">男士专区</a><a href="#">护肤套装</a></div></li>
+							<li><div>彩妆气氛</div><div><a href="#">卸妆</a><a href="#">女士香水</a><a href="#">隔离/底妆</a><a href="#">唇膏口红</a><a href="#">眼妆/腮红</a><a href="#">美甲</a></div></li>
+							<li><div>个护保健</div><div><a href="#">沐浴/体乳</a><a href="#">洗发/护发</a><br/><a href="#">口腔护理</a><a href="#">美体护理</a><br/><a href="#">手足护理</a><a href="#">驱蚊凝露</a><br/><a href="#">女性卫生</a><a href="#">保健品</a></div></li>
+							<li><div>面部护肤</div><div><a href="#">面膜</a><a href="#">化妆水</a><a href="#">洁面</a><a href="#">防晒</a><a href="#">面霜/乳液</a><a href="#">精华</a><a href="#">腿部护理</a><a href="#">唇部护理</a><a href="#">精油</a><a href="#">美妆工具</a><a href="#">男士专区</a><a href="#">护肤套装</a></div></li>
+						</ul>
+						<div class="ul_bot"><a href="#"><img src="image/sock_5.jpg"/></a></div>
+					</div>
+				</div>
+				<div class="mouseover">
+					<p><span class="spImg"><img src="image/nav_icon4.png"></span>创意生活</p>
+					<div class="divA">
+						<a href="#">水杯 / 保温杯</a>
+						<a href="#">随身小物件</a><br/>
+						<a href="#">咖啡</a>
+						<a href="#">钥匙挂件</a>
+					</div>
+
+					<div class="side_cen">
+						<div>
+							<p>创意生活</p>
+							<div class="titleImg"><a href="#"><img src="image/life_1.jpg"/></a><a href="#"><img src="image/life_2.jpg"/></a><a href="#"><img src="image/life_3.jpg"/></a><a href="#"><img src="image/life_4.jpg"/></a></div>
+						</div>
+						<ul>
+							<li><div>面部护肤</div><div><a href="#">面膜</a><a href="#">化妆水</a><a href="#">洁面</a><a href="#">防晒</a><a href="#">面霜/乳液</a><a href="#">精华</a><a href="#">腿部护理</a><a href="#">唇部护理</a><a href="#">精油</a><a href="#">美妆工具</a><a href="#">男士专区</a><a href="#">护肤套装</a></div></li>
+							<li><div>彩妆气氛</div><div><a href="#">卸妆</a><a href="#">女士香水</a><a href="#">隔离/底妆</a><a href="#">唇膏口红</a><a href="#">眼妆/腮红</a><a href="#">美甲</a></div></li>
+							<li><div>个护保健</div><div><a href="#">沐浴/体乳</a><a href="#">洗发/护发</a><br/><a href="#">口腔护理</a><a href="#">美体护理</a><br/><a href="#">手足护理</a><a href="#">驱蚊凝露</a><br/><a href="#">女性卫生</a><a href="#">保健品</a></div></li>
+							<li><div>彩妆气氛</div><div><a href="#">卸妆</a><a href="#">女士香水</a><a href="#">隔离/底妆</a><a href="#">唇膏口红</a><a href="#">眼妆/腮红</a><a href="#">美甲</a></div></li>
+							<li><div>个护保健</div><div><a href="#">沐浴/体乳</a><a href="#">洗发/护发</a><br/><a href="#">口腔护理</a><a href="#">美体护理</a><br/><a href="#">手足护理</a><a href="#">驱蚊凝露</a><br/><a href="#">女性卫生</a><a href="#">保健品</a></div></li>
+						</ul>
+						<div class="ul_bot"><a href="#"><img src="image/life_5.jpg"/></a></div>
+					</div>
+				</div>
+				<div class="mouseover">
+					<p><span class="spImg"><img src="image/nav_icon5.png"></span>时尚配饰</p>
+					<div class="divA last">
+						<a href="#">奢侈品</a>
+						<a href="#">配饰</a>
+						<a href="#">箱包</a>
+						<a href="#">项链</a><br/>
+						<a href="#">手链</a>
+						<a href="#">耳饰</a>
+						<a href="#">戒指</a>
+						<a href="#">太阳镜</a>
+					</div>
+
+					<div class="side_cen">
+						<div>
+							<p>时尚配饰</p>
+							<div class="titleImg"><a href="#"><img src="image/accessories_1.jpg"/></a><a href="#"><img src="image/accessories_2.jpg"/></a><a href="#"><img src="image/accessories_3.jpg"/></a><a href="#"><img src="image/accessories_4.jpg"/></a></div>
+						</div>
+						<ul>
+							<li><div>面部护肤</div><div><a href="#">面膜</a><a href="#">化妆水</a><a href="#">洁面</a><a href="#">防晒</a><a href="#">面霜/乳液</a><a href="#">精华</a><a href="#">腿部护理</a><a href="#">唇部护理</a><a href="#">精油</a><a href="#">美妆工具</a><a href="#">男士专区</a><a href="#">护肤套装</a></div></li>
+							<li><div>彩妆气氛</div><div><a href="#">卸妆</a><a href="#">女士香水</a><a href="#">隔离/底妆</a><a href="#">唇膏口红</a><a href="#">眼妆/腮红</a><a href="#">美甲</a></div></li>
+							<li><div>个护保健</div><div><a href="#">沐浴/体乳</a><a href="#">洗发/护发</a><br/><a href="#">口腔护理</a><a href="#">美体护理</a><br/><a href="#">手足护理</a><a href="#">驱蚊凝露</a><br/><a href="#">女性卫生</a><a href="#">保健品</a></div></li>
+							<li><div>面部护肤</div><div><a href="#">面膜</a><a href="#">化妆水</a><a href="#">洁面</a><a href="#">防晒</a><a href="#">面霜/乳液</a><a href="#">精华</a><a href="#">腿部护理</a><a href="#">唇部护理</a><a href="#">精油</a><a href="#">美妆工具</a><a href="#">男士专区</a><a href="#">护肤套装</a></div></li>
+							<li><div>彩妆气氛</div><div><a href="#">卸妆</a><a href="#">女士香水</a><a href="#">隔离/底妆</a><a href="#">唇膏口红</a><a href="#">眼妆/腮红</a><a href="#">美甲</a></div></li>
+							<li><div>个护保健</div><div><a href="#">沐浴/体乳</a><a href="#">洗发/护发</a><br/><a href="#">口腔护理</a><a href="#">美体护理</a><br/><a href="#">手足护理</a><a href="#">驱蚊凝露</a><br/><a href="#">女性卫生</a><a href="#">保健品</a></div></li>
+						</ul>
+						<div class="ul_bot"><a href="#"><img src="image/accessories_5.jpg"/></a></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<p class="p2"><a href="#">首页</a><a href="#">极致美护</a><a href="#">全球零食</a><a href="#">创意生活</a><a href="#">时尚配饰</a><a href="#">尖货女装</a><a href="#">3C家电</a></p>
+	</div>
+
+
+
+
+
+
+	<!-- 主体 -->
+	<div class="kdetail">
+		<div class="detail">
+			<ul class="det1">
+				<li>
+					<span class="index"></span>
+					<span class="arrow"></span>
+				</li>
+				<li>
+					创意生活
+					<span class="arrow"></span>
+				</li>
+				<li>
+					创意礼物
+					<span class="arrow"></span>
+				</li>
+				<li>
+					其他创意礼品
+					<span class="arrow"></span>
+				</li>
+				<li>
+					家用自制冰沙盘(白色)
+				</li>	
+			</ul>
+			<div class="det2">
+				<div class="det2-1">
+
+					<div style="height:380px">
+						<a href="#" class="detA"><div class="mark"></div></a>
+						<div class="b-box">
+							<div class="rel-box">
+								
+							</div>
+						</div>
+					<ul class="det1-r ser2">
+						<li class="l1">[设计师· 爱机的“小憩甜品”] Daling 达令新潮饼干数据线 </li>
+						<li>达令价<span class="l2-1">¥ 29.00</span>
+							<p style="margin-left: 80px;">海外现时售价 ¥29.00<span class="l2-2">10折</span><span class="l2-3">?</span></p>
+						</li>
+						<li class="l3">收藏：42</li>
+						<li class="l4-0 ">购买数量<span class="l4-1">1</span><span class="l4"><span class="l4-2 add"><span></span></span><span class="l4-3"><span></span></span></span></li>
+						<li><span class="l5-1">立即购买</span><span class="l5-2" name="3">添加到购物车</span></li>
+						<li class="l6"><span style="background-position: 0px -36px"></span>正品保障<span style="background-position: -67px -36px"></span>24小时发货<span></span>满55元快递包邮</li>
+					</ul>
+					</div>
+
+					<ul class="det2-2">
+						<li class="flex"><span style="background-position: -25px -21px"></span>分享</li>
+						<li class="flex"><span style="background-position: -23px 0px"></span>收藏</li>
+						<li class="lihover">
+							<p class="phover flex"><span></span>消费者告知书<span class="arrow"></span>
+							<P class="phover2">尊敬的客户：<br/>您好！<br/>
+							在您选购境外商品前，麻烦您仔细阅读此文，同意本文所告知内容后再进行下单购买：<br/>1.您在本（公司）网站上购买的境外商品为产地直销商品，仅限个人自用不得进行再销售，商品本身可能无中文标签，您可以查看网站的翻译或者在线联系我们的客服。<br/>2.您购买的境外商品适用的品质、健康、标识等项目使用标准符合原产国使用标准，但是可能与我国标准有所不同，所以在使用过程中由此可能产生的危害或损失以及其他风险，将由您个人承担。<br/>3.您在本（公司）网站上购买保税区发货的境外商品时，自动视为由达令极速免税店代您向海关进行申报和代缴税款。<br/><br/>谢谢！<br/><br/>北京普缇客科技有限公司
+							</P>
+						</li>
+					</ul>
+
+					<div class="det3">
+						<a href="#" class="news">商品信息</a><a href="#" class="sale">售后服务</a>
+					</div>
+
+
+					<div class="det4">
+						<p class="det4-1">商品参数</p>
+						<p>商品信息<br/>
+						<br/>
+						<img src="image/det1.jpg"/></p>
+						<p style="border:none">售后服务</p>
+						<ul>
+								<li>客服电话： 400-080-1888，客服时间：周一至周日 09:00-18:00</li>
+								<li>配送服务： 限大陆地区；申通或中通随机发货！订单满55元包邮；首单免运费！</li>
+								<li>发货时间： 周一到周日全天发货，17点前付款当日发货</li>
+								<li>相关服务： 至我的订单详情页，可申请退款</li>
+								<li>微信服务： 微信号：ymallll，及时服务时间：周一至周日 09:00-18:00</li>
+							</ul> 
+						
+					</div>
+				</div>
+
+
+				<div class="det5">
+					<div class="det5-top">
+						
+					</div>
+					<p style="text-align: center;"><span class="arrow1 arrow"></span><span class="arrow2 arrow"></span></p>
+				<div>
+				</div>	
+			</div>
+		</div>
+	</div>
+
+	<div class="footer">
+		<div class="footer1">
+			<ul>
+				<li><span>为什么选择达令</span><p></p></li>
+				<li><p></p><span> 100多个品牌授权</span></li>
+				<li><p></p><span> 24小时发货</span></li>
+				<li><p></p><span> 保税区正品</span></li>
+			</ul>
+		</div>
+		<div class="footer2">
+			<ul>
+				<li class="li">投资人说达令</li>
+				<li>&ensp;"hi，达令，我是鹿晗，达令投资人，投资比影响力更重要的是责任。"</li>
+			</ul>
+			<ul>
+				<li class="li">投资人说达令</li>
+				<li>&ensp;“达令<sup>TM</sup>一手全球好货——带您购全球，教您神马值得买。<br>
+				连续两年荣获App store 编辑推荐最佳购物类应用！”
+				</li>
+			</ul>
+		</div>
+		<div class="footer3">
+			<p><a href="#">首页</a> &ensp;| &ensp;<a href="#">首站地图</a>&ensp; |&ensp; <a href="#">消费者告知书</a> &ensp;| &ensp;<a href="#">y优惠券使用规则</a> &ensp;| &ensp;<a href="#">关于我们</a>&ensp; | &ensp;<a href="#">练习我们</a></p>
+			<p>北京普缇客科技有限公司<a href="#"><img src="image/login_cert.png"></a><a href="#"><img src="image/login_cnnic.png"></a><a href="#"><img src="image/login_zfb.jpg"></a></p>
+			<p>Copyright © 2016达令 ，All Rights Reserved │ 京ICP备14009583号-1 │ 京公网安备11010502027399 | 食品流通许可证编号：SP1101051510323113</p>
+		</div>
+	</div>
+
+
+
+
+</body>
+</html>
